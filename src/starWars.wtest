@@ -1,0 +1,17 @@
+import starWars.*
+
+test "Potencia inicial de arturito "{
+	assert.equals( 5, arturito.potencia())
+}
+test "Potencia de arturito con la bateria cargada"{
+	arturito.cargar()
+	assert.equals( 10, arturito.potencia())
+}
+
+test "testAnakinPasaAlLadoOscuro" {
+	assert.that(true)
+}
+
+test "testVaderPasaAlLadoLuminoso" {
+	assert.that(true)
+}
